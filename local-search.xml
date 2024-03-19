@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>测试文章</title>
+    <link href="/2024/02/24/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+    <url>/2024/02/24/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    
+    <content type="html"><![CDATA[<p>高塔里的邪恶小丑</p><p>——寻找肉鸽卡牌设计的通解</p><p>如标题所述，本文将以《杀戮尖塔》、《邪恶铭刻》、《Balatro（小丑牌）》三个游戏为主要分析对象，辅以其他几款优秀的肉鸽游戏，对寻找肉鸽卡牌设计通解进行简单的尝试。</p><p>上述三款中卡牌的定位其实有着不小的差异：《杀戮尖塔》中的卡牌可以被视为人物的“技能”，《邪恶铭刻》中的卡牌则是“召唤物“，《小丑牌》中的卡牌是用于计分的扑克牌。但是这些差异并不会对我们的分析产生影响。</p><p>一，确定基础数值</p><p>我们这样定义“基础数值”：基础数值贯穿了肉鸽进程中的每一个回合、每一场战斗，是玩家作出每一次决策都需要考虑的东西，也是决定玩家胜利或失败的核心。在肉鸽卡牌游戏中，玩家通过卡牌来产生基础数值，达成通关目标。</p><p>在《杀戮尖塔》中，基础数值是【伤害】与【护甲】。玩家通过卡牌造成伤害，以削减敌人的血量，击败敌人；同时，玩家通过卡牌获取护甲，以抵御敌人的攻击，防止自己的血量被削减至零。</p><p>《邪恶铭刻》与《杀戮尖塔》类似，基础数值为【攻击力】与【血量】。攻击力即为该卡牌&#x2F;召唤物每回合能够造成的伤害，血量则是能承受的伤害。</p><p>由于《小丑牌》通关的唯一目标就是“达成足够的分数”，而分数的计算公式则是【筹码数】×【倍率】，每一张打出的牌都会对乘式的两项产生影响，所以不难确定，《小丑牌》的基础数值是【筹码数】与【倍率】。</p><p>在设计一款肉鸽卡牌游戏时，首先要确定的就是游戏的【基础数值】为何。这样才能够围绕基础数值展开进一步的卡牌设计。</p><p>二，卡牌直接产出基础数值</p><p><strong>初始牌组</strong></p><p>既然玩家需要基础数值，我们就让卡牌直接产出基础数值。《杀戮尖塔》初始牌组几乎全部由“打击”与“防御”构成：打击能够造成数点伤害，防御能够获取数点护甲，属于最简单直白的效果，同时也与初始牌组的定位相符。类似的，《三国杀》中“杀”“闪”“桃”之所以被视为最基础的三张牌，就是因为他们有着最直接的、能够产生基础数值的能力：“造成伤害”、“回避伤害”、“回复血量”。</p><p><strong>更高的数值</strong></p><p>同样是直接产出基础数值，我们设计两张牌：卡牌A能够获得10点护甲，而卡牌B只能获得5点。卡牌A相对于B，显然有着更高的数值——那么，代价呢？</p><p>是的，当我们设计出一张相比于已有卡牌，具有更高数值的卡牌时，我们必须要为其设计一些代价，例如：</p><p><strong>费用</strong>：如果存在费用系统，那么高数值对应高费用是一个很自然的设计</p><p><strong>负面效果</strong>：打出这张牌可能会使玩家获得一个Debuff</p><p><strong>资源</strong>：玩家可能需要花费金币在商店购买、消耗经验进行卡牌升级、承担风险挑战精英怪以获取卡牌</p><p>一般来说，一张高数值卡需要具备上述三点中的两点，以保证整体的平衡性。</p><p>三，卡牌间接产出基础数值</p><p><strong>机制的概念</strong></p><p>如果基础数值只能最直接的形式产出，那么游戏将变成无聊的加减法。因此，在肉鸽卡牌游戏中，绝大多数的卡牌都是间接产出基础数值的。既然是“间接”，那么就一定存在一个中间媒介，我们不妨把这个媒介称为“机制”。事实上，肉鸽卡牌的设计，很大一部分就是在对机制进行设计。</p><p><strong>建立在基础牌之上的机制</strong></p><p><strong>buff</strong>：例如“所有攻击牌伤害+1”、“受到的伤害减少25%”、“无敌一回合“</p><p><strong>成长</strong>：拥有成长属性，这一属性可能只在单局战斗中生效，也可能在全局战斗中一直不断成长。卡牌的成长性意味着当玩家达成某些条件，卡牌的数值就能获得永久性提升，且一般无上限，例如“狂宴”、“仪式匕首”（《杀戮尖塔》），“吸血鬼”、“恐怖匕首”（《小丑牌》）</p><p><strong>重复触发</strong>：可能是一张牌具有多段伤害，也可能是一张牌会被重复打出。例如“双发”（《杀戮尖塔》）、“三重攻击”（《邪恶铭刻》）</p><p><strong>倍率</strong>：非常暴力的机制，使得数值以乘数形式增长。例如“巩固”、“催化剂”（《杀戮尖塔》），以及《小丑牌》中的倍率乘数小丑。</p><p><strong>独立的全新机制</strong></p><p>如前所述，机制是卡牌与基础数值之间的媒介。而新机制之所以称之为新，是因为其有着全新的产出数值的角度。</p><p><strong>1****，变更战斗体系</strong></p><p>《杀戮尖塔》中，对敌人的攻击一般来说是通过攻击牌实现的，玩家打出“上勾拳”“旋风斩”“回身踢”等攻击牌来击败敌人。然而职业“猎手”在传统攻击牌之外拥有着全新的“毒”体系：毒牌不是直接对敌人造成n点伤害，而是对敌人施加n层可叠加的“中毒”状态，敌人在回合开始时会失去等同中毒状态总数的血量；职业“机器人”则拥有“充能球”机制，充能球类似召唤物，每回合可以为本体提供防御&#x2F;对敌人造成伤害，因此对充能球的运营成为了机器人玩家不可或缺的一环。与之类似的还有处决体系、诅咒体系（n回合后敌人死亡）等等。</p><p><strong>2****，数值与游戏其他系统耦合</strong></p><p>这里举几个“其它系统”的例子：费用数、血量、卡组系统（卡牌总数&#x2F;攻击牌数量&#x2F;…）、经济系统，关卡系统，等等</p><img src="/2024/02/24/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/test.png" class="" title="图片引用方法一">]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2024/01/24/hello-world/"/>
+    <url>/2024/01/24/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>【2023 CIGA GameJam】Blind Touch</title>
+    <link href="/2024/01/24/%E3%80%902023CIGAGameJam%E3%80%91BlindTouch/"/>
+    <url>/2024/01/24/%E3%80%902023CIGAGameJam%E3%80%91BlindTouch/</url>
+    
+    <content type="html"><![CDATA[<p>【2023 CIGA GameJam】<em>Blind Touch</em></p><p>​2023年7月，我在Lyreyia前辈的邀请下第一次参加GameJam。虽然在此之前已经学习了几个月的Unity，但是不得不承认还是有点紧张，当然更多的是兴奋（笑）。</p><p>​椰岛站场地在普陀区，日常羡慕徐汇校区。</p><img src="/2024/01/24/%E3%80%902023CIGAGameJam%E3%80%91BlindTouch/1_1.png" class="" title="从地铁站徒步前往场地，路过了国电"><center> <font size=2> 从地铁站徒步前往场地，路过了国电</font></center><p>​场地给人的印象确实是非常宽敞，大概能容纳几百人的样子。</p><p>​下午五点公布了今年的主题：touch。</p><img src="/2024/01/24/%E3%80%902023CIGAGameJam%E3%80%91BlindTouch/1_2.png" class="" title="现场公布主题"><center> <font size=2> 现场公布主题</font></center><p>​这里介绍一下我们的团队：原本是1策3程1美1音的构成，然而GJ开始当天的上午美术和音乐相继宣告因为有事而离队……也算是GJ中不得不品的一环啦。</p><p>​总之，在拿到主题后团队的剩余四人立即开始了脑暴，最终决定制作一款扮演盲人通过“touch”来走出地牢的游戏。</p><p>​可以看出来，我们的这款游戏的机制还是比较简单的，在3程序的豪华阵容下理论上能够很快完成……</p><p>​不出意外的话，意外就要发生了。</p><p>​首先，编辑器版本没有统一。由于没有事先协商统一好编辑器的版本，导致只能现场下载一个确定的新版本。雪上加霜的是，现场的网络出现了神秘的问题，导致下载速度堪比守望先锋1的更新速度，并且不断爆出下载错误。 </p><p>​其次，版本控制系统使用不熟练。费了很大的力才使得所有人都成功接入项目，耽误了不少时间。这里我们使用的是Plastic SCM（下次可以换一个吗）。</p><p>​上述其实都是经验不足暴露出的问题，也是我在第一次GameJam中最大的收获之一。解决了这些问题后，我们的开发进程才算是开始稳步推进了下去。我在其中主要负责了动画效果的实现，美术、音乐资源的导入与应用，以及实现了其他的一些小功能。总体来说还是相对轻松的。</p><img src="/2024/01/24/%E3%80%902023CIGAGameJam%E3%80%91BlindTouch/1_3.png" class="" title="小队成员在工作"><center> <font size=2> 小队成员在工作</font></center><p>​此次GameJam还有一点让我感触颇多。不同于大学生站点，椰岛站参赛队伍更多是由社会人员构成（因为队内主策是在职哥，所以我们只得选择椰岛站），许多队伍其实已经提前准备好完成度较高的作品，等到题目公布之后稍作修改，硬蹭主题即可；甚至有一队带着已经准备商业化作品参赛，展示时还在宣传特们的玩家群（笑）。虽然这样的作品能保证具有很高的完整度，但是我觉得如此这般已经失去了GameJam的意义。</p><p>​最后介绍一下我们的游戏——Blind Touch（其实我很想吐槽前辈起的这个名字啦）。</p><p>​进入第一关，玩家发现自己操控的目盲小人身处一片黑暗之中，在2D的俯视角下，玩家只能看到角色周围的一小块区域。玩家通过WASD键进行移动，通过上下左右键进行“touch”。小人虽然因为失明无法看到迷宫的构造，但是可以通过touch来对迷宫进行探索——一旦touch到了墙体，墙体周围的区域将被点亮，代表着这一区域已经被小人记在了脑海之中。</p><img src="/2024/01/24/%E3%80%902023CIGAGameJam%E3%80%91BlindTouch/1_4.png" class="" title="玩家发现自己身处黑暗之中"><center> <font size=2> 玩家发现自己身处黑暗之中</font></center><p>​玩家操控的小人一路摸索，最终找到了出口——这里可以注意到，被点亮过的区域有些已经重新变回黑暗。这是因为我们给小人添加了“遗忘”机制：随着时间推移，小人可能会忘记记忆中的迷宫结构，之前已touch的区域将慢慢重新变回黑暗。这意味着玩家在探索迷宫的过程中还要与时间赛跑，否则小人将被困在黑暗的迷宫中。</p><p>​当然，为了避免游戏难度过高，我们制作了“罗盘”：右上角的罗盘将指向出口的大致方位，为玩家提供指引。</p><img src="/2024/01/24/%E3%80%902023CIGAGameJam%E3%80%91BlindTouch/1_5.png" class="" title="通过摸索，找到出口"><center> <font size=2> 通过摸索，找到出口</font></center><p>​漆黑的地牢中除了有错综复杂的道路，还有带来惊喜的宝箱。宝箱能够为我们孱弱的小人提供强大的一次性道具，例如图中右下角UI显示的“爆破手套”。</p><img src="/2024/01/24/%E3%80%902023CIGAGameJam%E3%80%91BlindTouch/1_6.png" class="" title="玩家发现了地牢中的宝箱"><center> <font size=2> 玩家发现了地牢中的宝箱</font></center><p>​玩家按空格即可使用道具。爆破手套能够将迷宫的墙体直接炸开，从而使玩家能够在任何时候、任何位置开辟出新的道路，创造新的通关可能。</p><img src="/2024/01/24/%E3%80%902023CIGAGameJam%E3%80%91BlindTouch/1_7.png" class="" title="使用爆破手套破墙"><center> <font size=2> 使用爆破手套破墙</font></center><p>​地牢中还存在着图中展示的机关，操纵机关可以改变墙体的位置，玩家需要不断调整机关，找到通往出口的正确道路。</p><img src="/2024/01/24/%E3%80%902023CIGAGameJam%E3%80%91BlindTouch/1_8.png" class="" title="玩家发现了地牢中的机关"><center> <font size=2> 玩家发现了地牢中的机关</font></center><img src="/2024/01/24/%E3%80%902023CIGAGameJam%E3%80%91BlindTouch/1_9.png" class="" title="玩家调整机关"><center> <font size=2> 玩家调整机关，发现出口</font></center><p>​在游戏初期，我们会在每一个关卡逐步引入新机制，从最开始的移动、“touch”教学，到各种各样的道具，再到变化莫测的地牢机关，使玩家一步步深入、熟悉游戏的全部机制。在设计最后一关时，我们将先前全部的机制都纳入到了该关卡之中，向玩家发起“最终考核”。</p><img src="/2024/01/24/%E3%80%902023CIGAGameJam%E3%80%91BlindTouch/1_10.png" class="" title="最后一关的规模非常庞大"><center> <font size=2> 最后一关的规模非常庞大</font></center><p>​以上就是我们作品——Blind Touch的介绍。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>GameJam</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
